@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       ofp_link:
-        description: 'OFP Firmaware Link'
+        description: 'https://drive.google.com/uc?id=1gGx4U-ybaeCdMOqEwpO6BOVUWtYNj2BR&export=download'
         required: true
       filename:
-        description: 'The filename You want in output (make unique)'
+        description: 'karki7492 decrypt'
         required: true
       devicetype:
-        description: 'Specify Your Device type. { For Qualcomm (QC) FOR MEDIATEK (MTK) }'
+        description: 'Mtk'
         required: true
       simage:
         description: 'Do you want to merege super images, if yes then type <YES>'
